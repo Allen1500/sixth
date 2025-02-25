@@ -7,5 +7,5 @@ function Footer() {
     </footer>
   );
 }
-
+// the privacy policy link not finished yet do that page later
 export default Footer

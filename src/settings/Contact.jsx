@@ -5,7 +5,10 @@ import gitImage from '../assets/git.png';
 import linkImage from '../assets/link.png';
 import googleImage from '../assets/google.png';
 import './Contact.css';
-
+// take a look at the import statements above and compare them to the import statements below to see if i can make the email page work
+// fix the click to enter button when i wake up its kind of bland
+// add a hover effect to the links and the images stop useing in line styles and use css i need more practice with it
+// the import statements are used to import images and css files
 function Contact() {
   return (
     <div className="contactPage">

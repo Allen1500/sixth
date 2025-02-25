@@ -5,7 +5,8 @@ import nightsky2 from '../assets/nightsky2.jpg';
 import reach3 from '../assets/reach3.jpg';
 import homePageImage from '../assets/homePage.png';
 import './Home.css';
-
+// i need to fix all styles on this page i need more practice with in line styles its not fitting my vision yet
+// i need to add a hover effect to the cards and the buttons
 function Home() {
   return (
     <div className="homePage">

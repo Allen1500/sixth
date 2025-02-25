@@ -7,10 +7,12 @@ import reactImg from '../assets/react.png';
 import Logo1 from '../assets/Logo1.png';
 import homePageImage from '../assets/homePage.png';
 import './Skills.css';
-
+// The Skills function is a React functional component keep that in mind because i can do crazy shit wit it.
+// useState is used to manage the state of the selected skills so i can use this for more than selecting stuff null or not.
 function Skills() {
   const [selectedSkill, setSelectedSkill] = useState(null);
-
+// skillExamples is an object that maps skill names to HTML strings so when I put the example code this is what made it show I sucked because I had to use html for it to show there has to be a better way.
+// I will change this to use actual components instead of HTML strings so it looks a little cleaner and i can change it faster.
   const skillExamples = {
     canva: `<div class="exampleBox"><img src="${Logo1}" alt="Logo1" class="exampleImage" /></div>`,
     figma: `<div class="exampleBox"><img src="${homePageImage}" alt="HomePage" class="exampleImage" /></div>`,
@@ -54,8 +56,9 @@ function Card({ route, title, description }) {
 export default Card;
 \`}</pre></div>`,
   };
-
-  return (
+// Inside skillsContainer there is the skillItem divs each with a image and a button
+// When a button is clicked setSelectedSkill is called to update the selectedSkill statewith the name set that was the only way i could get the example to show there has to be a shorter way// If selectedSkill is not null a skillExample div is shown with the example code using dangerouslySetInnerHTML thats my first time using that so i need hella more practice 
+ return (
     <div className="skillsPage">
       <img className="skillsImage" src={skillsPage} alt="Skills" />
       <h2>Skills</h2>

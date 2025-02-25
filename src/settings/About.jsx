@@ -15,7 +15,7 @@ function About() {
             The passion for creating visually appealing and user-friendly websites goes beyond mere technical skill. It's about blending artistry and functionality to offer an exceptional digital experience. This shift from physical structures to digital creations highlights the ever-evolving landscape of human innovation.
 
             Designing a website involves more than just understanding code. It encompasses:
-
+{/* fix this later to where the bullet points line up try making a UL for this later */}
             • A deep appreciation for aesthetics and user experience
 
             • The ability to merge creativity with technical expertise

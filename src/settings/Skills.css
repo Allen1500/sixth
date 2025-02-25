@@ -39,7 +39,7 @@
     padding: 5px 10px;
     cursor: pointer;
   }
-  
+  /*i need to fix this better when i wake the color in my head is a white/red all the whites a matter of fact need to be a white red and give it a shadow */
   .skillItem:hover {
     transform: translateY(-10px) translateX(10px);
     background-color: #f0f0f0;
