@@ -1,0 +1,76 @@
+.contactPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .mainContactImage {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust this value to match the skills page image size later when i wake up */
+    object-fit: cover;
+  }
+  
+  .contactItem {
+    margin: 20px 0;
+  }
+  
+  .contactBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .blueBorder {
+    border: 2px solid blue;
+  }
+  
+  .purpleBorder {
+    border: 2px solid purple;
+  }
+  
+  .blueShadow {
+    box-shadow: 0 0 10px blue;
+    animation: flicker 1.5s infinite alternate;
+  }
+  
+  .contactIcon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .glowingLink {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  .clickToEnter {
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px yellow;
+    }
+    to {
+      text-shadow: 0 0 20px red;
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      box-shadow: 0 0 10px blue;
+    }
+    to {
+      box-shadow: 0 0 20px blue;
+    }
+  }

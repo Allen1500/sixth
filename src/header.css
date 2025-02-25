@@ -1,0 +1,15 @@
+.headerPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .headerImage {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  h1 {
+    margin: 20px 0;
+  }

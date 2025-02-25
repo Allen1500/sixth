@@ -1,0 +1,30 @@
+.aboutPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .aboutContent {
+    border: 2px solid purple;
+    border-radius: 10px;
+    box-shadow: 0 0 10px purple;
+    background: linear-gradient(to bottom, lightblue, lightpurple);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .aboutContent p {
+    color: #000;
+    text-shadow: 2px 2px 4px white;
+    transition: text-shadow 1s ease-in-out;
+  }
+  
+  .aboutContent p:hover {
+    text-shadow: 2px 2px 4px lightSkyBlue;
+  }

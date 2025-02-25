@@ -1,0 +1,70 @@
+.skillsPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .skillsImage {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .skillsContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .skillItem img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .skillItem button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .skillItem:hover {
+    transform: translateY(-10px) translateX(10px);
+    background-color: #f0f0f0;
+  }
+  
+  .skillExample {
+    margin-top: 20px;
+  }
+  
+  .skillExample pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .exampleBox {
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .exampleImage {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }

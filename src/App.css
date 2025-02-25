@@ -1,0 +1,49 @@
+.appContainer {
+    position: relative;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+  
+  .navBar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  @media (max-width: 768px) {
+    .navBar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 80px;
+    }
+  
+    .appContainer {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navBar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 60px;
+    }
+  
+    .appContainer {
+      padding: 5px;
+    }
+  }
